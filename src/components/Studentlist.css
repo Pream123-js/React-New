@@ -1,0 +1,105 @@
+/* MAIN CONTAINER */
+.student-list {
+  max-width: 1000px;
+  margin: 0 auto;               /* CENTER CONTENT */
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* HEADER */
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* CLASS TABS (FLOATING STYLE) */
+.class-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.class-buttons button {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.class-buttons button.active {
+  background-color: #d48fb3;
+  color: white;
+}
+
+/* CONTROLS */
+.student-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-controls {
+  display: flex;
+  gap: 10px;
+}
+
+/* INPUTS */
+.student-controls input,
+.student-controls select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* TABLE WRAPPER */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* TABLE */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f6d6e6;    /* PASTEL PINK */
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* HEADER */
+.student-table thead {
+  background-color: #e6aacb;
+}
+
+.student-table th {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* BODY */
+.student-table td {
+  padding: 12px;
+  font-size: 14px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ROW HOVER (DARKER PINK) */
+.student-table tbody tr:hover {
+  background-color: #d48fb3;
+  color: white;
+}
+
+/* EMPTY STATE */
+.no-data {
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+  color: #555;
+}

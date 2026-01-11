@@ -1,0 +1,84 @@
+.academic-expanded {
+  background-color: #f3e8d8;
+  padding: 12px;
+}
+.academic-expanded table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #e1dfbd;
+  margin-top: 8px;
+}
+.academic-expanded th,
+.academic-expanded td {
+  border: 1px solid #d2c2ad;
+  padding: 8px;
+}
+.academic-expanded thead {
+  background-color: #ead8c2;
+}
+.academic-summary {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.academic-expanded,
+.academic-expanded * {
+  color: #000;
+}
+
+/* ============================= */
+/* TOP BAR INSIDE MAIN CONTENT */
+/* ============================= */
+
+.academic-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Left side (Search) */
+.academic-left input {
+  padding: 8px 12px;
+  width: 260px;
+  border-radius: 8px;
+  border: 1px solid #c9b6a3;
+  outline: none;
+}
+
+/* Right side controls */
+.academic-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Class buttons */
+.class-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.class-buttons button {
+  padding: 6px 14px;
+  border-radius: 18px;
+  border: 1px solid #d48fb3;
+  background-color: #f6d6e6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.class-buttons button.active {
+  background-color: #d48fb3;
+  color: white;
+  font-weight: 600;
+}
+
+/* Sort & group dropdowns */
+.academic-right select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #c9b6a3;
+  background-color: white;
+  cursor: pointer;
+}

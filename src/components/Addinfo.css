@@ -1,0 +1,37 @@
+.student-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;     /* separates from table */
+  padding: 12px 16px;
+
+  
+  border-radius: 14px;
+}
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* spacing between buttons/selects */
+}
+.right-controls button:last-child {
+  background-color: #d98bb3; /* pink */
+  color: white;
+
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.right-controls button:last-child:hover {
+  background-color: #c97aa6;
+}
+.student-controls input,
+.student-controls select {
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
